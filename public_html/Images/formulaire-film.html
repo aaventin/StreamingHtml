@@ -12,56 +12,68 @@ and open the template in the editor.
     </head>
     <body>
         <form>
-        <table>
-            <tr>
-                <td><label>Titre</label></td>
-                <td><input type="text" name="titre"/></td>
-            </tr>
-            <tr>
-                <td><label>Synopsis</label></td>
-                <td><textarea name="synopis"></textarea></td>
-            </tr>
-            <tr>
-                <td><label>Annee</label></td>
-                <td><input name="annee" type="number" value="2016" min="1900"/></td>
-            </tr>
-            <tr>
-                <td><label>Genre</label></td>
-                <td><select>
-                        <option value="1">Anime</option>
-                        <option value="2">Action</option>
-                        <option value="3">Fantastique</option>
-                        <option value="4">Romance</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Pays</label></td>
-                <td>
-                    <select>
-                        <option value="1">France</option>
-                        <option value="2">Espagne</option>
-                        <option value="3">USA</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Realisateur</label></td>
-                <td>
-                    <select multiple="">
-                        <option value="1">Quentin Tarantino</option>
-                        <option value="2">Pablo Almodovar</option>
-                        <option value="3">Mark Osborne</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><label>Publie</label></td>
-                <td><input type="checkbox"/></td>
-            </tr>            
-        </table>
-            <br>
-            <input type="submit"/>
-            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Champ</th>
+                        <th>Valeur</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label>Titre</label></td>
+                        <td><input type="text" name="titre"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Synopsis</label></td>
+                        <td><textarea name="synopis"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label>Annee</label></td>
+                        <td><input name="annee" type="number" value="2016" min="1900"/></td>
+                    </tr>
+                    <tr>
+                        <td><label>Genre</label></td>
+                        <td><select>
+                                <option value="1">Anime</option>
+                                <option value="2">Action</option>
+                                <option value="3">Fantastique</option>
+                                <option value="4">Romance</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Pays</label></td>
+                        <td>
+                            <select>
+                                <option value="1">France</option>
+                                <option value="2">Espagne</option>
+                                <option value="3">USA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Realisateur</label></td>
+                        <td>
+                            <select multiple="">
+                                <option value="1">Quentin Tarantino</option>
+                                <option value="2">Pablo Almodovar</option>
+                                <option value="3">Mark Osborne</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Publie</label></td>
+                        <td><input type="checkbox"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="submit"/></td>
+                    </tr>
+                </tbody>            
+            </table>
+           
+           
+        </form>
     </body>
 </html>
