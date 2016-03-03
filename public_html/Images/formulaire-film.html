@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+        <table>
+            <tr>
+                <td><label>Titre</label></td>
+                <td><input type="text" name="titre"/></td>
+            </tr>
+            <tr>
+                <td><label>Synopsis</label></td>
+                <td><textarea name="synopis"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Annee</label></td>
+                <td><input name="annee" type="number" value="2016" min="1900"/></td>
+            </tr>
+            <tr>
+                <td><label>Genre</label></td>
+                <td><select>
+                        <option value="1">Anime</option>
+                        <option value="2">Action</option>
+                        <option value="3">Fantastique</option>
+                        <option value="4">Romance</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Pays</label></td>
+                <td>
+                    <select>
+                        <option value="1">France</option>
+                        <option value="2">Espagne</option>
+                        <option value="3">USA</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Realisateur</label></td>
+                <td>
+                    <select multiple="">
+                        <option value="1">Quentin Tarantino</option>
+                        <option value="2">Pablo Almodovar</option>
+                        <option value="3">Mark Osborne</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Publie</label></td>
+                <td><input type="checkbox"/></td>
+            </tr>            
+        </table>
+            <br>
+            <input type="submit"/>
+            </form>
+    </body>
+</html>
